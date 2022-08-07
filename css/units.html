@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units in CSS</title>
+    <style>
+      .box {
+        background-color: green;
+        height: 40px;
+        margin: 10px;
+        font-size: 30px;
+      }
+      .fifty-percent {
+        width: 50%;
+      }
+      .hundred-pixels {
+        width: 100px;
+      }
+      .fifty-vw {
+        width: 50vw;
+      }
+      .parent {
+        border: 4px solid black;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS</h1>
+    <div class="box fifty-percent">50%</div>
+    <div class="box hundred-pixels">100px</div>
+    <div class="box fifty-vw">50vw</div>
+
+    <hr />
+
+    <div class="parent">
+      <div class="box fifty-percent">50%</div>
+      <div class="box hundred-pixels">100px</div>
+      <div class="box fifty-vw">50vw</div>
+    </div>
+  </body>
+</html>

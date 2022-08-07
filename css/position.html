@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <style>
+      .parent {
+        background-color: gray;
+        padding-bottom: 10px;
+        position: relative;
+        height: 200vh;
+      }
+      .child {
+        width: 90%;
+
+        margin: 10px;
+        height: 40px;
+      }
+
+      .child-one {
+        background-color: red;
+        position: absolute;
+        width: 40px;
+        /* position: relative;
+        left: 10px; */
+      }
+      .child-two {
+        background-color: green;
+      }
+
+      .child-three {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS</h1>
+    <div class="parent">
+      Parent
+      <div class="child child-one">One</div>
+      <div class="child child-two">Two</div>
+      <div class="child child-three">Three</div>
+    </div>
+  </body>
+</html>
